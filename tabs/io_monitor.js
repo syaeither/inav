@@ -37,7 +37,6 @@ function loadSubtab(tabName, htmlFile, jsFile, cssFile, containerId, callback) {
 let currentSubtab = null;
 
 function showSubtab(subtab) {
-
     if (currentSubtab && window.TABS[currentSubtab] && typeof window.TABS[currentSubtab].cleanup === 'function') {
         window.TABS[currentSubtab].cleanup();
     }
