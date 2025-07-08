@@ -1,0 +1,25 @@
+.subtabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1em;
+}
+.subtab {
+  padding: 0.5em 1em;
+  cursor: pointer;
+  background: #eee;
+  border: 1px solid #ccc;
+  margin-right: 0.5em;
+  border-radius: 4px 4px 0 0;
+}
+.subtab.active {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+  font-weight: bold;
+}
+.subtab-content {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 1em;
+  background: #fff;
+}
